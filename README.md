@@ -30,3 +30,6 @@ binary label indicating diabetes presence.
 - Feature Scaling
 - Random Forest Classifier
 - Model Evaluation Metrics
+
+## 📜 License
+This project is open-source and available under the MIT License.
