@@ -14,9 +14,9 @@ patients = pd.read_csv('Diabetes.csv')
 patients.info()
 
 # Data exploration
-print(df.head())
-print(df.describe())
-print(df['Outcome'].value_counts())
+print(patients.head())
+print(patients.describe())
+print(patients['Outcome'].value_counts())
 
 # Check for missing values and duplicates (0s in place of missing)
 patients.duplicated().sum()
